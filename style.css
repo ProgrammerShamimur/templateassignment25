@@ -1,0 +1,261 @@
+/* ======================
+Default css start
+======================== */
+body,h1,h2,h3,h4,h5,h6,p,span,a{
+    font-family: 'Spartan', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.bg{
+     background-color: #f7f9fc;
+}
+/* ======================
+Default css end
+======================== */
+
+
+/* ======================
+header section css start
+======================== */
+.heading-title{}
+.heading-title h5{
+    color: #3763eb;
+    font-size: 18px;
+}
+.heading-title h3 {
+    font-size: 32px;
+    font-weight: bold;
+}
+.heading-title h6 {
+    font-weight: 600;
+    line-height: 1.6rem;
+    font-size: 17px;
+}
+.line-div{
+    position: relative;
+}
+.line-div::after {
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #3763eb;
+    height: 2px;
+    width: 58px;
+    display: inline-block;
+}
+.box-card{
+    background-color: #fff;
+    transition: .4s;
+}
+.box-card:hover{
+    background-color: #3763eb;
+    color: #fff;
+}
+.box-head{
+    transition: all .5s ease-out;
+}
+.box-head h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.box-head h1 {
+    font-weight: 600;
+}
+.box-line{
+    position: relative;
+}
+.box-line::after {
+    content: "";
+    height: 1px;
+    width: 200px;
+    display: inline-block;
+    background: #ddd;
+}
+.box-title{}
+.box-title .box-ul{
+    list-style: none;
+    padding-left: 0;
+}
+.box-title .box-ul .box-li {
+    margin-bottom: 15px;
+}
+.box-title .box-ul .box-li .box-a {
+    text-decoration: none;
+    color: #6c757d;
+    font-size: 17px;
+    font-weight: 500;
+}
+.box-card:hover .box-a {
+    color: #fff !important;
+}
+.box-title .btn-primary {
+    padding: 13px 30px;
+    border-radius: 27px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    background: #3763eb;
+    box-shadow: none;
+    transition: all .5s ease-in-out;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+    z-index: 1;
+}
+.box-title .btn-primary::after{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 27px;
+    background-color: #3763eb;
+    transition: all .5s ease-in-out;
+    z-index: -1;
+}
+.box-title .btn-primary:hover::after{
+    width: 100%;
+}
+.box-title .btn-primary:hover{
+    color: #fff !important;
+}
+.box-card:hover .btn-primary{
+    color: #3763eb;
+    background: #fff;
+}
+
+/* ======================
+header section css end
+======================== */
+
+/* ======================
+hero section css start
+======================== */
+.hero {
+    height: 70vh;
+    background: url(./image/free-bg.jpg) no-repeat;
+    background-position: 0 -111px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.hero::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(55, 99, 235, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.hero-image{}
+.banner-text h3{
+    width: 570px;
+}
+.banner-text .line-div{
+    position: relative;
+}
+.banner-text .line-div::after {
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    height: 2px;
+    width: 58px;
+    display: inline-block;
+}
+.banner-button .btn-primary {
+    padding: 16px 34px;
+    border-radius: 31px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3763eb;
+    background: #fff;
+    box-shadow: none;
+    transition: all .5s ease-in-out;
+    border: 2px solid #fff;
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+    z-index: 1;
+}
+.banner-button .btn-primary::after{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 27px;
+    background-color: #3763eb;
+    transition: all .5s ease-in-out;
+    z-index: -1;
+}
+.banner-button .btn-primary:hover::after{
+    width: 100%;
+}
+.banner-button .btn-primary:hover{
+    color: #fff;
+}
+/* ======================
+hero section css end
+======================== */
+
+/* ============================
+subscribe section css start
+=============================== */
+.sign-form{
+    background: #3763eb;
+}
+.sign-header h6{
+    width: 346px;
+}
+.sign-form input{
+    border-radius: 30px;
+}
+.sign-form .btn-primary {
+    background: #3763eb;
+    border: 1px solid #fff;
+    padding: 6px 15px;
+    border-radius: 21px;
+    font-weight: 600;
+}
+.get-start {
+    background: #fff;
+    /* height: 26vh; */
+    padding: 34px 38px;
+}
+.get-start h5 {
+    width: 272px;
+}
+.get-start-button {
+    margin-top: 79px;
+}
+.get-start-button .btn-primary {
+    padding: 6px 15px;
+    border-radius: 27px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    background: #3763eb;
+    box-shadow: none;
+    transition: all .5s ease-in-out;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+    z-index: 1;
+}
+
+/* ============================
+subscribe section css end
+=============================== */
